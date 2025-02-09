@@ -31,6 +31,7 @@ export const RegistrationStoreProvider = ({
     </RegistrationStoreContext.Provider>
   );
 };
+
 export const useRegistrationStore = <T,>(
   selector: (store: RegistrationStore) => T
 ): T => {
