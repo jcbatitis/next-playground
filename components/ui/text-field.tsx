@@ -5,7 +5,7 @@ type TextFieldProps = {
   name: string;
   value: string;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  type?: string;
+  type?: 'text' | 'password' | 'email' | 'url' | 'password';
   required?: boolean;
   readonly?: boolean;
 };
