@@ -19,7 +19,7 @@ const Button: React.FC<ButtonProps> = ({
       onClick={onClick}
       disabled={disabled}
       className={
-        'w-full rounded-md p-2 text-white active:bg-blue-400 disabled:bg-gray-400'
+        'w-full rounded-md bg-blue-500 p-2 text-white active:bg-blue-400 disabled:bg-gray-400'
       }
     >
       {label}
